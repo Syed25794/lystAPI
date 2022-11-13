@@ -29,7 +29,7 @@ app.get("/",(req,res)=>{
 app.listen(PORT, async () => {
 
   try {
-    await connection;
+    await connection();
     console.log("Connected to db");
   } catch (err) {
     console.log("Error connnecting to DB");
