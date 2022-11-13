@@ -22,7 +22,7 @@ app.use("/product", productController)
 app.use("/user", userController);
 
 app.get("/",(req,res)=>{
-  res.send("Welcome to Hoem page.");
+  res.send("Welcome to Home page.");
 });
 
 
